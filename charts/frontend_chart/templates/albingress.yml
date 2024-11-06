@@ -28,7 +28,7 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: backend-api
+                name: api
                 port:
                   number: 3001
           - path: /
