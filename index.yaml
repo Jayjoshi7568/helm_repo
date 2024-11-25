@@ -3,13 +3,13 @@ entries:
   boiler-plate:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-17T14:08:25.819696+05:30"
+    created: "2024-11-25T17:38:08.729015+05:30"
     description: A Helm chart for Kubernetes used as a boiler plate to deploy various
       app
-    digest: 6ea873e90eeb3993be542379349bb5ed7e0a0e24992db9bfb82a94e65a86c41b
+    digest: 49b425e02fb4f431285082f59a2924bb3b5c897fc2a7fd92fbc3d1e3b69f1a0e
     name: boiler-plate
     type: application
     urls:
     - https://jayjoshi7568.github.io/helm_repo/boiler-plate-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-17T14:08:25.817875+05:30"
+generated: "2024-11-25T17:38:08.726411+05:30"
