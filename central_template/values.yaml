@@ -243,6 +243,8 @@ externalSecrets:
   # Name of the external secret (e.g., the name of the secret in AWS SSM or Secrets Manager)
   externalSecretName: /myapp/config   # This can be a path to an SSM parameter or Secrets Manager secret name
 
+  refreshInterval: 1h  # Optional, defaults to 1h if not set
+
   # data:                           # The list of keys to sync from external secret manager
   #   - key: "db-username"           # The key for the secret in your external store (e.g., AWS Secrets Manager)
   #     remoteKey: "prod/db-username" # The secret name/key in the external secrets provider
